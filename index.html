@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>MissyStore</title>
+    <link rel="shortcut icon" href="/img/missyStore.png" type="image/x-icon">
+    <link rel="stylesheet" href="/css/index.css">
+</head>
+<body>
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a>MissyStore <img src="/img/logo2.png" alt="" width="80px" height="50px"</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <center><li><a href="#inicio" onclick="seleccionar()">INICIO</a></li></center>
+                    <center><li><a href="http://wa.me/+51986095936" target="_blank" onclick="seleccionar()">WHATSAPP</a></li></center>
+                    <center><li><a href="#catalogo" onclick="seleccionar()">CATÁLOGO</a></li></center>
+                    <center><li><a href="#contacto" onclick="seleccionar()">ÚNETE</a></li></center>
+                    <center><li><a href="/login.html" onclick="seleccionar()">CERRAR SESIÓN</a></li></center>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="/img/Missy3.png" alt="">
+            </div>
+            <h1>Missy</h1>
+            <h2>Mis Redes Sociales</h2>
+            <div class="redes">
+                <a href="https://www.facebook.com/profile.php?id=100094158527800" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://www.tiktok.com/@missy_store20.06" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+                <a href="https://www.instagram.com/missystore20.06/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="http://wa.me/+51986095936" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+        </div>
+    </section>
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h3></h3>
+            <p><span>Hola, somos MissyStore.<br></h3>
+                </span> Somos una familia emprendedora, dedicada a la venta de ropitas y accesorios para tu michi,
+                comprometidos con su cuidado. </p>
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Detalles de Nuestro CatShop</h3>
+                    <ul>
+                        <li>
+                            <strong>Teléfono</strong>
+                            (+51) 944-196-894
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            missystore20.06@gmail.com
+                        </li>
+                        <li>
+                            <strong>Website</strong>
+                            www.missystore.com
+                        </li>
+                        <li>
+                            <strong>Dirección</strong>
+                            Calle Las Gardenias Mz A-11 lt 35 - Primera Etapa
+                        </li>
+                        
+                    </ul>
+                </div>
+                <section id="portfolio" class="portfolio">
+                    <div class="contenido-seccion">
+                        <div class="galeria">
+                            <div class="proyecto">
+                                <img src="/recursos/capucha.jpg" alt="">
+                                <a href="nuestroblog.html"><div class="overlay">
+                                    <h3>Clientes Felices</h3>
+                                    <p>NUESTRO BLOG</p>
+                                </div></a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+        <button>
+            Descargar Catálogo <i class="fa-solid fa-download"></i>
+            <span class="overlay"></span>
+        </button>
+        </div>
+    </section>
+    <section id="catalogo" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>CATÁLOGO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <a href="/catalogos_html/cama/camas.html"><img src="recursos/camacatalogo.jpg" alt="" height="290px" width="370px" >
+                        <div class="overlay">
+                            <h3>CATEGORÍA</h3>
+                            <p>Camas & Gimnasio</p>
+                        </div>
+                    </a>  
+                </div>
+                <div class="proyecto">
+                    <a href="/catalogos_html/ropa/ropa.html"><img src="/recursos/dino.jpg" alt=""  height="280px" width="350px">
+                    <div class="overlay">
+                        <h3>CATEGORÍA</h3>
+                        <p>Ropitas</p>
+                    </div></a>
+                </div>
+                <div class="proyecto">                    
+                    <a href="/catalogos_html/arenero/arenero.html"><img src="/recursos/arenero/arenero 8.png" alt="" height="280px" width="350px">
+                    <div class="overlay">
+                        <h3>CATEGORÍA</h3>
+                        <p>Arenero</p>
+                    </div></a>
+                </div>
+                <div class="proyecto">
+                    <a href="/catalogos_html/aseo/aseo.html"><img src="/recursos/cepillo.jpg" alt="" height="320px" width="350px">
+                    <div class="overlay">
+                        <h3>CATEGORÍA</h3>
+                        <p>Aseo & Limpieza</p>
+                    </div></a>
+                </div>
+                <div class="proyecto">
+                    <a href="/catalogos_html/juguetes/juguetes.html"><img src="/recursos/jueguetecategoria.jpg" alt="" height="320px" width="350px">
+                    <div class="overlay">
+                        <h3>CATEGORÍA</h3>
+                        <p>Juguetes & Rascadores</p>
+                    </div></a>
+                </div>
+                <div class="proyecto">
+                    <a href="/catalogos_html/mochila/Transporte.html"><img src="/recursos/mochila1.jpg" alt= "" height="320px" width="350px"> 
+                    <div class="overlay">
+                        <h3>CATEGORÍA</h3>
+                        <p>Mochilas & Trasportador</p>
+                    </div></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>Suscríbete a la Familia Missy</h2>
+            <div class="fila">
+                <!-- Formulario -->
+                <div class="col">
+                    <input type="text" placeholder="Tu Nombre">
+                    <input type="text" placeholder="Nombre de tu Missy">
+                    <input type="text" placeholder="Número de contacto">
+                    <input type="text" placeholder="correo">
+                    <button>
+                        Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+                    </button>
+                </div>
+                <div class="col">
+                    <img src="#" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Calle Las Gardenias Mz A-11 lt 35 - Primera Etapa
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                Llámanos: <br> (+51) 944-196-894
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email: missystore20.06@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="https://www.facebook.com/profile.php?id=100094158527800" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://www.tiktok.com/@missy_store20.06" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+            <a href="https://www.instagram.com/missystore20.06/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="http://wa.me/+51986095936" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+            <h3>Missy Store Ⓡ - CopyRight - Todos los Derechos Reservados </h3>
+            Calle Las Gardenias Mz A-11 lt 35 - Primera Etapa
+            <h4>Lima - Perú</h4>
+            2023<br>
+            "Descubre una nueva forma de engreír"
+        </div>
+    </footer>
+    <script src="/js/script.js"></script>
+</body>
+</html>

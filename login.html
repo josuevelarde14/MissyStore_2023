@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Pagina de Inicio de Sesión</title>
+    <link rel="stylesheet" href="/css/login.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="shortcut icon" href="/img/missyStore.png" type="image/x-icon">
+</head>
+<body>
+        <div class="contenedor-header">
+            <header>
+                <div class="logo">
+                    <a>MissyStore <img src="/img/logo2.png" alt="" width="80px" height="50px"></a>
+                </div>
+                <nav id="nav">
+                    <ul>
+                    </ul>
+                </nav>
+                <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </header>
+        </div>
+    </header>
+    <div class="background"></div>
+    <div class="container">
+        
+        <div class="login-section">
+            <div class="form-box login">
+                <form action="">
+                    <h2>Ingresar</h2>
+                    <div class="input-box">
+                        <span class="icon"><i class='bx bxs-user'></i></span>
+                        <input type="text" required>
+                        <label >Nombre de Usuario</label>
+                    </div>
+                    <div class="input-box">
+                        <span class="icon"><i class='bx bxs-lock-alt' ></i></span>
+                        <input type="password"  required>
+                        <label>Contraseña</label>
+                    </div>
+                    <div class="remember-password">
+                        <label for=""><input type="checkbox">Mantener sesión activa </label>
+                    </div>
+                        <center><input type="button" class = "btn" onclick="location.href='index.html';" value="Iniciar Sesión" /></center>
+                    <div class="create-account">
+                        
+                        <p>Crear una cuenta nueva <a href="#" class="register-link">Registrar</a></p>
+                    </div>
+                </form>
+            </div>
+        <section id="sobremi" class="sobremi">
+            <div class="form-box register">
+                <form action="">
+                    <h2>Registrar Nuevo Usuario</h2>
+                    <div class="input-box">
+                        <span class="icon"><i class='bx bxs-user'></i></span>
+                        <input type="text" required>
+                        <label >Nombre de Usuario</label>
+                    </div>
+                    <div class="input-box">
+                        <span class="icon"><i class='bx bxs-phone'></i></span>
+                        <input type="text" required>
+                        <label >Número de celular</label>
+                    </div>  
+                    <div class="input-box">
+                        <span class="icon"><i class='bx bxs-lock-alt' ></i></span>
+                        <input type="password" required>
+                        <label>Contraseña</label>
+                    </div>
+                    <div class="remember-password">
+                        <label for=""><input type="checkbox">Acepto recibir catálogos actualizados</label>
+                    </div>
+                    <button class="btn">Registrar</button>
+                    <div class="create-account">
+                        <p>Tienes una cuenta <a href="#" class="login-link">Inicia Sesión</a></p>
+                    </div>
+                </form>
+            </div>
+        </section>
+        </div>
+    </div>
+    <script src="/js/login.js"></script>
+</body>
+</html>

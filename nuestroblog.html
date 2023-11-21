@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>MissyStore</title>
+    <link rel="shortcut icon" href="img/missyStore.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/nuestroblog.css">
+</head>
+
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a>MissyStore <img src="img/logo2.png" alt="" width="80px" height="50px" </a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <center>
+                        <li><a href="index.html" onclick="seleccionar()">INICIO</a></li>
+                    </center>
+                    <center>
+                        <li><a href="http://wa.me/+51986095936" target="_blank" onclick="seleccionar()">WHATSAPP</a>
+                        </li>
+                    </center>
+                    <center>
+                        <li><a href="/catalogo.html" onclick="seleccionar()">CATÁLOGO</a></li>
+                    </center>
+                    <center>
+                        <li><a href="/login.html" onclick="seleccionar()">CERRAR SESIÓN</a></li>
+                    </center>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>  
+    <section id="NuestroBlog" class="portafolio">
+        <div class="contenido-seccion">
+            <h2># Nuestro Blog</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="img/lucas.jpg" alt="" height="280px" width="350px">
+                        <div class="overlay">
+                            <h3>LUCAS</h3>
+                            <p>El valiente</p>
+                        </div>
+                    <p>
+                        <center>Hola soy Lucas me siento muy feliz luego que mi mami me comprara este hermoso chaleco.
+                        </center>
+                    </p>
+                </div>
+                <div class="proyecto">
+                    <img src="img/Antonia.jpg" alt="" height="280px" width="350px">
+                        <div class="overlay">
+                            <h3>ANTONIA</h3>
+                            <p>La coqueta</p>
+                        </div>
+                    <p>
+                        <center>Hola soy Antonia, me siento muy cómoda en mi nueva casita que papá me compró.</center>
+                    </p>
+                </div>
+                <div class="proyecto">
+                    <img src="img/gemelas.jpg" alt="" height="280px" width="350px">
+                    
+                        <div class="overlay">
+                            <h3>SOL Y LUNA</h3>
+                            <p>Las juguetonas</p>
+                        </div>
+                    <p>
+                        <center>Hola somos Sol y Luna, hermanas gemelas. Aquí te muestro lo genial que nos vemos con
+                            nuestros collares.</center>
+                    </p>
+                </div>
+                <div class="proyecto">
+                    <img src="img/logan.jpg" alt="" height="280px" width="350px">
+                        <div class="overlay">
+                            <h3>LOGAN</h3>
+                            <p>El engreído</p>
+                        </div>
+                    <p>
+                        <center>Hola mi nombre es Logan y siempre estoy con mami, por eso me lleva con ella en la
+                            mochila kawai.</center>
+                    </p>
+                </div>
+                <div class="proyecto">
+                    <img src="img/pelusa.jpg" alt="" height="280px" width="350px">
+                        <div class="overlay">
+                            <h3>NENA</h3>
+                            <p>La exploradora</p>
+                        </div>
+                    <p>
+                        <center>Hola soy Nena y acompañar a mi papi a sus aventuras es muy divertido, lo acompaño
+                            siempre con mi mochila aventurera.</center>
+                    </p>
+                </div>
+                <div class="proyecto">
+                    <img src="img/minina.jpg" alt="" height="280px" width="350px">
+                        <div class="overlay">
+                            <h3>YAHAIRA</h3>
+                            <p>Las Tik-Toker</p>
+                        </div>
+                    <p>
+                        <center>Hola soy Yahaira, ahora con mi nuevo vestido, mis seguidores de Tik-Tok <i
+                                class="fa-brands fa-tiktok"></i> están maravillados.</center>
+                    </p>
+                </div>
+                <div class="proyecto">
+                    <img src="img/Pepe.jpg" alt="" height="280px" width="350px">
+                        <div class="overlay">
+                            <h3>FERMIN Y JOAQUIN</h3>
+                            <p>Los inquietos</p>
+                        </div>
+                    <p>
+                        <center>Hola, somos los más juguetones de la familia. Estamos muy contentos con nuestro nuevo
+                            rascador, papi y mami nos adoran.</center>
+                    </p>
+                </div>
+                <div class="proyecto">
+                    <img src="img/lucia.jpg" alt="" height="280px" width="350px">
+                        <div class="overlay">
+                            <h3>LUCIA</h3>
+                            <p>La princesa</p>
+                        </div>                    
+                    <p>
+                        <center>Soy Lucia, gracias a la mochila que mami compró, ahora mis croquetas son más faciles de
+                            llevar al parque.</center><br>
+                    </p>                    
+                </div>
+                <div class="proyecto">
+                    <img src="img/nena.jpg" alt="" height="280px" width="350px">                 
+                        <div class="overlay">
+                            <h3>MATIAS</h3>
+                            <p>El viajero</p>
+                        </div>
+                    <p>
+                        <center>Hola soy Matías, siempre me gusta salir a pasear con papi. En esta mochila lo acompaño
+                            siempre.</center><br>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <a href="#NuestroBlog" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="https://www.facebook.com/profile.php?id=100094158527800" target="_blank"><i
+                    class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://www.tiktok.com/@missy_store20.06" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+            <a href="https://www.instagram.com/missystore20.06/" target="_blank"><i
+                    class="fa-brands fa-instagram"></i></a>
+            <a href="http://wa.me/+51986095936" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+            <h3>Missy Store Ⓡ - CopyRight - Todos los Derechos Reservados </h3>
+            Calle Las Gardenias Mz A-11 lt 35 - Primera Etapa
+            <h4>Lima - Perú</h4>
+            2023<br>
+            "Descubre una nueva forma de engreír"
+            
+        </div>
+    </footer>
+    <script src="/js/script.js"></script>
+</body>
+
+</html>
